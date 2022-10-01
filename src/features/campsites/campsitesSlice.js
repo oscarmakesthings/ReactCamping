@@ -1,6 +1,11 @@
-import { CAMPSITES
- } from "../../app/shared/CAMPSITES";
+import { CAMPSITES } from "../../app/shared/CAMPSITES";
+import { COMMENTS } from '../../app/shared/COMMENTS';
 
+export const selectCommentsByCampsiteId = (campsiteId) => {
+    return COMMENTS.filter(
+        (comment) => comment.campsiteId === parseInt(campsiteId)
+    );
+};
 
  export const selectAllCampsites = () => {
     return CAMPSITES;
