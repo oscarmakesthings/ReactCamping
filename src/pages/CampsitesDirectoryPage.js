@@ -8,7 +8,7 @@ const CampsitesDirectoryPage = () => {
             <SubHeader current='Directory'></SubHeader>
             <CampsitesList />
         </Container>
-    );
+    )
 };
 
 export default CampsitesDirectoryPage;
