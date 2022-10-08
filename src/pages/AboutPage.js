@@ -33,7 +33,7 @@ const AboutPage = () => {
                             <h3>Facts at a Glance</h3>
                         </CardHeader>
                         <CardBody>
-                        <dl className='row'>
+                            <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
                                 <dd className='col-6'>February 3, 2016</dd>
                                 <dt className='col-6'>No. of Campsites in 2019</dt>
@@ -60,7 +60,7 @@ const AboutPage = () => {
                                     <cite title='Source Title'>
                                         "Wind-Wafted Wild Flowers" - The Open Court,
                                         1903
-                                    </cite>  
+                                    </cite>
                                 </footer>
                             </blockquote>
                         </CardBody>
