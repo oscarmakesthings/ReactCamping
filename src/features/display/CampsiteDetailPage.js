@@ -9,9 +9,9 @@ const CampsiteDetailPage = () => {
     const { campsiteId } = useParams();
     return (
         <Container>
-            <SubHeader current={campsiteId.name} detail={true} />
+            <SubHeader current={campsite.name} detail={true} />
             <Row>
-                <CampsiteDetail campsite={campsiteId} />
+                <CampsiteDetail campsite={campsite} />
                 <CommentsList campsiteId={campsiteId} />
             </Row>
         </Container>
