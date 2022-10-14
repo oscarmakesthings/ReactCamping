@@ -5,10 +5,10 @@ const initialState = {
     partnersArray: PARTNERS
 };
 
-const partnersSlice = createSlice() = {
+const partnersSlice = createSlice({
     name:'partners',
     initialState
-};
+});
 
 export const partnersReducer = partnersSlice.Reducer
 

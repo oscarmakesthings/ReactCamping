@@ -6,10 +6,10 @@ const initialState = {
     promotionsArray: PROMOTIONS
 };
 
-const promotionsSlice = createSlice()= {
+const promotionsSlice = createSlice({
     name: 'promotions',
     initialState
-};
+});
 
 export const promotionsReducer = promotionsSlice.reducer
 

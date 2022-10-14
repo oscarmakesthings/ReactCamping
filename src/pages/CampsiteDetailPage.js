@@ -10,7 +10,7 @@ const CampsiteDetailPage = () => {
         const {campsiteId } = useParams();
         const campsite = useSelector(selectCampsiteById(campsiteId));
         console.log('campsite:', campsite);
-        //selectCampsiteById(campsiteId);
+
 
         return (
             <Container>
