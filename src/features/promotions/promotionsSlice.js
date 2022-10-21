@@ -1,5 +1,5 @@
 import { PROMOTIONS } from "../../app/shared/PROMOTIONS";
-import { CAMPSITES } from "../../app/shared/CAMPSITES";
+//import { CAMPSITES } from "../../app/shared/CAMPSITES";
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
